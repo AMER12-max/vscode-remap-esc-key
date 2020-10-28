@@ -1,0 +1,9 @@
+// Add the following to settings.json (open the Command Pallete and search for "User Settings"):
+// remaps <esc> key to go to insert mode to 'ii'
+
+"vim.insertModeKeyBindings": [
+     {
+         "before": ["i", "i"],
+         "after": ["<esc>"]
+     }
+]
